@@ -1,0 +1,158 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.ContactTitle{
+    position: relative;
+}
+
+.ContactTitle h1 {
+    padding: 0px 30px;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-Dark);
+}
+
+.ContactSection {
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ContactLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+    margin-right: 20px;
+}
+.ContactLeft h1{
+    font-size: 3rem;
+    font-weight: 600;
+    background: linear-gradient( 180deg, #3e59bd,#212121);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ContactLeft p {
+    max-width: 550px;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 22px;
+}
+
+.ContactDetail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ContactDetail img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.ContactRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.ContactRight label{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.ContactRight input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background-color: var(--color-bg);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+.ContactRight textarea{
+    width: 650px;
+    border: no;
+    padding: 25px;
+    border-radius: 4px;
+    background-color: var(--color-bg);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+
+.ContactRight input::placeholder {
+    color: white;
+}
+
+.ContactRight textarea::placeholder {
+    color: white;
+}
+
+.ContactSubmit {
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient( 101deg, #3e59bd,#212121);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ContactSubmit:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 1024px) {
+    .Contact {
+        margin: 40px 20px; /* Adjust margin for smaller screens */
+    }
+
+    .ContactRight input,
+    .ContactRight textarea {
+        width: 100%; /* Make inputs full width */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Contact {
+        margin: 20px 10px; /* Further adjust margin for very small screens */
+    }
+
+    .ContactRight input,
+    .ContactRight textarea {
+        width: 100%; /* Ensure inputs are full width */
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    .ContactSubmit {
+        padding: 15px; /* Adjust padding for smaller screens */
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
+

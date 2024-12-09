@@ -1,0 +1,170 @@
+#about {
+  padding: 4rem 8rem;
+  margin-top: 10rem;
+  display: flex;
+}
+
+.about-container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 2rem 4rem;
+}
+
+.title h2 {
+  font-size: 2.5rem;
+  color: var(--color-Dark);  
+}
+
+.Aboutimg img {
+  width: 400px;
+  border-radius: 26px;
+  box-shadow: 0 0 38px var(--color-Dark);
+}
+
+.AboutSection {
+  display: flex;
+  gap: 4rem;
+}
+
+
+.AboutContent{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.para{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 21px;
+  font-weight: 500;
+  color: var(--color-Dark);
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.skill{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  transition: 0.3s;
+}
+.skill p {
+  min-width: 5rem;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.skill hr {
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(-90deg, #3D52A0, #7091E6, #8697C4);
+}
+
+.Achivements {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 23px;
+}
+
+.Achivements hr {
+  outline: none;
+  border: none;
+  width: 4px; 
+  height: 100%; 
+  border-radius: 50px; 
+  background: var(--color-white); 
+}
+
+.Achivment h1 {
+  font-size: 45px;
+  font-weight: 500;
+  background: linear-gradient( 101deg, #3D52A0,#212121);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Achivment p {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.Achivment:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px){
+  #about {
+    padding: 2rem 4rem;
+    margin-top: 5rem;
+  }
+
+  .about-container {
+    margin: 1rem 2rem;
+  }
+
+  .title h2 {
+    font-size: 2rem;
+  }
+
+  .Aboutimg img {
+    margin-top: 10rem;
+    justify-self: center;
+    width: 100%;
+  }
+
+  .skill {
+    gap: 20px;
+  }
+
+  .skill p {
+    min-width: auto;
+  }
+
+  .Achivment h1 {
+    font-size: 36px;
+  }
+
+  .Achivment p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  #about {
+    padding: 3rem 6rem;
+  }
+
+  .title h2 {
+    font-size: 2.2rem;
+  }
+  .Aboutimg img {
+    margin-top: 4rem;
+    justify-self: center;
+    width: 100%;
+  }
+  .skill p {
+    min-width: 6rem;
+  }
+}
+

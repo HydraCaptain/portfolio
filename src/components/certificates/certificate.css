@@ -1,0 +1,111 @@
+.MyCertificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 0;
+}
+
+.CertName {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.CertName h1 {
+    color: var(--color-Dark);
+    padding: 0 30px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.CertCont {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.CertCont img {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.CertCont img:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.6s ease, box-shadow 0.3s ease;
+}
+
+.ShowButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--color-white);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.ShowButton:hover {
+    color: var(--color-Dark);
+    transform: scale(1.05);
+}
+
+.ShowButton p {
+    margin: 0;
+}
+
+.ShowButton img {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .CertCont {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .ShowButton {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .CertName h1 {
+        font-size: 2em;
+    }
+
+    .ShowButton {
+        font-size: 0.9em;
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.largeImage {
+    max-width: 90%;
+    max-height: 90%;
+}
+  
+  
+  
