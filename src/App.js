@@ -6,6 +6,9 @@ import About from './components/about/about';
 import Mywork from './components/mywork/mywork.js';
 import Certificate from './components/certificates/certificate.js';
 import Contact from './components/contact/contact.js';
+import Footer from './components/Footer/footer';
+
+
 
 
 
@@ -19,7 +22,7 @@ function App() {
       <Mywork />
       <Certificate />
       <Contact />
-      
+      <Footer />
     </div>
   );
 }

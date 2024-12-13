@@ -31,8 +31,6 @@ const Contact = () => {
                 <button type='submit' className='ContactSubmit'>Submit now</button>
             </form>
         </div>
-      
-      <p>Feel free to reach out to me at myemail@example.com</p>
     </div>
   );
 }
