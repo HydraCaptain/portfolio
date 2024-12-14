@@ -76,5 +76,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .CertCont img {
+        width: 150px;
+        height: 150px;
+    }
 }
 
