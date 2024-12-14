@@ -113,6 +113,26 @@
   transition: 0.3s;
 }
 
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  #about {
+    padding: 3rem 6rem;
+  }
+
+  .title h2 {
+    font-size: 2.2rem;
+  }
+  .Aboutimg img {
+    margin-top: 4rem;
+    justify-self: center;
+    width: 100%;
+  }
+  .skill p {
+    min-width: 6rem;
+  }
+}
+
+
 @media screen and (max-width: 1024px){
   #about {
     padding: 2rem 4rem;
@@ -150,21 +170,21 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-  #about {
-    padding: 3rem 6rem;
-  }
+@media screen and (max-width: 768px) {
 
-  .title h2 {
-    font-size: 2.2rem;
+  #about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
   }
+.about-container{
+  padding: none;
+}
+.AboutSection{
+  gap: 0;
+}
   .Aboutimg img {
-    margin-top: 4rem;
-    justify-self: center;
-    width: 100%;
-  }
-  .skill p {
-    min-width: 6rem;
+    display: none;
   }
 }
-

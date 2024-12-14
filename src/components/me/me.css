@@ -44,10 +44,11 @@
 
 .hero-action {
   display: flex;
+  align-items: baseline;
   gap: 2rem;
-  order: 1; 
   margin-bottom: 2rem;
 }
+
 
 .hero-connect a {
   padding: 1.5rem 2.5rem;
@@ -58,7 +59,7 @@
 }
 
 .hero-resume {
-  padding: 1.5rem 2.5rem;
+  padding: 1.2rem 2.2rem;
   border-radius: 0.5rem;
   cursor: pointer;
   font-weight: 500;
@@ -96,9 +97,16 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #me {
     padding: 2rem;
+  }
+
+  .hero-action {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 2rem;
   }
   
   .hero h1 {

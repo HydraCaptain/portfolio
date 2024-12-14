@@ -139,9 +139,35 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .Contact {
         margin: 20px 10px; /* Further adjust margin for very small screens */
+    }
+
+    .ContactSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .ContactLeft{
+        margin: 0;
+        order: 1;
+    }
+    .ContactRight{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .ContactRight label{
+        align-self: flex-start;
+    }
+    .ContactSubmit{
+        width: 75%;
     }
 
     .ContactRight input,
