@@ -18,9 +18,7 @@ const About = () => {
           <div className="AboutContent">
           <div className='para'>
             <p>I'm Jay kumar, a final-year engineering student and full-stack developer</p>
-            <p> A results-driven Full Stack and Mobile Application Developer with expertise in Java, Android
-                Development, and web technologies. Proficient in designing responsive, intuitive, and scalable
-                applications for mobile and web platforms. Strong understanding of software development principles,UI/UX best practices, and integration of APIs for seamless user experiences. Developed a Health CareApp using Firebase and Google Fit API, showcasing skills in both backend and frontend development.Passionate about learning new tools and frameworks to deliver innovative and high-quality solutions.</p>
+            <p> A results-driven Full Stack and Mobile Application Developer with expertise in Java, AndroidDevelopment, and web technologies. Strong understanding of software development principles,UI/UX best practices, and integration of APIs for seamless user experiences.Passionate about learning new tools and frameworks to deliver innovative and high-quality solutions.</p>
           </div>
           <div className='skills'>
             <div className='skill'><p>Frontend</p><hr style={{width:"60%"}}/></div>
