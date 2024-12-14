@@ -49,15 +49,23 @@
   margin-bottom: 2rem;
 }
 
-.hero-connect, .hero-resume {
-  padding: 1rem 2rem;
+.hero-connect a {
+  padding: 1.5rem 2.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
-.hero-connect {
+.hero-resume {
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.hero-connect a {
   background: var(--color-primary);
   color: white;
 }

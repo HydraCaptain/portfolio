@@ -7,7 +7,7 @@ import Mywork_data from '../../assets/workdata';
 
 function MyWork() {
   return (
-    <div className="MyWork">
+    <div id='MyWrk' className="MyWork">
         <div class = "mywork-title">
             <h1>My latest work.</h1>
         </div>
